@@ -13,11 +13,6 @@ This project relies on the following Python libraries:
 
 Install all dependencies with:
 
-```bash
-pip install -r requirements.txt
-
-pip install gymnasium numpy matplotlib stable-baselines3
-
 ## ⚠️ Disclaimer / 免責事項
 
 本プロジェクトのコードは教育目的・研究目的で提供されています。  
@@ -25,4 +20,11 @@ pip install gymnasium numpy matplotlib stable-baselines3
 
 **Use at your own risk.**  
 The author is not responsible for any direct or indirect damages resulting from the use of this software.
+
+
+```bash
+pip install -r requirements.txt
+
+
+
 
