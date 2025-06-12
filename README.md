@@ -15,6 +15,7 @@ Install all dependencies with:
 
 ## Limitations
 -Lead times between echelons (e.g., farm to factory, factory to retail) are not modeled.
+
 -Any customer demand that cannot be fulfilled on the same day is not carried over to the following day. Instead, it is treated as lost sales.
 
 ## ⚠️ Disclaimer / 免責事項
