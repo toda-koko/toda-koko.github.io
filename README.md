@@ -11,7 +11,6 @@ This project relies on the following Python libraries:
 - `matplotlib` – for visualization and plotting (optional)  
 - `stable-baselines3` – for reinforcement learning algorithms (PPO, DQN, etc.)
 
-Install all dependencies with:
 
 ## Limitations
 -Lead times between echelons (e.g., farm to factory, factory to retail) are not modeled.
@@ -26,7 +25,8 @@ Install all dependencies with:
 **Use at your own risk.**  
 The author is not responsible for any direct or indirect damages resulting from the use of this software.
 
-
+## dependence
+Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 
