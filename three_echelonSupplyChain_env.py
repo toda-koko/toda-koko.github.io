@@ -86,7 +86,7 @@ class ThreeEchelonSupplyChain(gym.Env):
         # sale（and lost）
         sales = min(self.inventory["retail"], demand)
         self.inventory["retail"] -= sales
-        lost_sales = demand - sales  # 使わないが、追跡可能
+        lost_sales = demand - sales 
 
         # calculate reward（revenue - all cost or penalty）
         revenue = self.unit_sale * sales
